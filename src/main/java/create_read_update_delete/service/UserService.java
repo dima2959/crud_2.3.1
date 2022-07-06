@@ -5,7 +5,6 @@ import create_read_update_delete.model.User;
 import java.util.List;
 
 public interface UserService {
-    void createTable();
 
     List<User> getAllUsers();
 
